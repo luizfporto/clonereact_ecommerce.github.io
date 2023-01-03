@@ -1,8 +1,10 @@
 import "./App.css";
 import { Header } from "./components/header/Header";
 import Hero from "./components/Hero/Hero";
+import Products from "./components/Products/Products";
 import Slider from "./components/Slider/Slider";
 import  Virtual  from "./components/Virtual/Virtual";
+
 
 function App() {
   return (
@@ -11,6 +13,7 @@ function App() {
       <Hero/>
       <Slider/>
       <Virtual/>
+      <Products/>
     </div>
   );
 }
