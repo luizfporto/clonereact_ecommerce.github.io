@@ -7,11 +7,9 @@ import {motion} from 'framer-motion';
 
 
 const Hero = () => {
-
     const transition = {duration: 3,type: "spring"}
     return (
         <div className={css.container}>
-        
         
             {/* left slide */} 
             <div className={css.h_sides}>
@@ -19,7 +17,7 @@ const Hero = () => {
 
                <div className={css.text2}>
                     <span>Trendy Collection</span>
-                    <span> Seedily say has suitable disposal and boy, rejoiced.</span>
+                    <span> Seedily say has suitable disposal and boy. Exercise joy man chidren rejoiced.</span>
                </div>
             </div>
 
